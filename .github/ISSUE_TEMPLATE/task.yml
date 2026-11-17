@@ -1,0 +1,39 @@
+name: Задача
+description: Задача зі спринт-плану (GC-XX)
+title: "GC-XX — "
+labels: []
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Задача
+      description: Що саме треба зробити
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Коміт
+      description: Повідомлення коміту у форматі Conventional Commits
+      placeholder: "feat(engine): add order book with price levels"
+    validations:
+      required: true
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Відповідальний
+      options:
+        - Юра
+        - Коля
+        - Разом
+    validations:
+      required: true
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done
+      options:
+        - label: Код у main через PR, review пройдено
+        - label: CI зелений
+        - label: Тести додано або оновлено (якщо застосовно)
+        - label: Документацію оновлено (якщо застосовно)

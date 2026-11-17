@@ -1,0 +1,29 @@
+# Локальні налаштування Claude Code
+.claude/settings.local.json
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+coverage/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Секрети та оточення
+.env
+.env.*
+!.env.example
+
+# IDE / ОС
+.idea/
+.DS_Store
+Thumbs.db
