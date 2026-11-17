@@ -2,7 +2,7 @@
 # Власник автоматично отримує запит на review у PR, що зачіпає його файли.
 
 # За замовчуванням — уся команда
-*                    @yurademyan-netizen
+*                    @yurademyan-netizen @Loki22978964
 
 # Інфраструктура, CI/CD, скрипти, деплой, моніторинг — Юра
 /.github/            @yurademyan-netizen
@@ -14,6 +14,5 @@
 /db/                 @yurademyan-netizen
 
 # Код застосунку та тести — Коля
-# TODO(GC-05): замінити @kolya-login на справжній логін Колі й розкоментувати
-# /src/              @kolya-login
-# /tests/            @kolya-login
+/src/               @Loki22978964
+/tests/             @Loki22978964
