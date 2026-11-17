@@ -1,0 +1,19 @@
+# Власники коду Gcoin. Останнє правило, що збіглося, має пріоритет.
+# Власник автоматично отримує запит на review у PR, що зачіпає його файли.
+
+# За замовчуванням — уся команда
+*                    @yurademyan-netizen
+
+# Інфраструктура, CI/CD, скрипти, деплой, моніторинг — Юра
+/.github/            @yurademyan-netizen
+/infra/              @yurademyan-netizen
+/scripts/            @yurademyan-netizen
+/deploy/             @yurademyan-netizen
+/helm/               @yurademyan-netizen
+/monitoring/         @yurademyan-netizen
+/db/                 @yurademyan-netizen
+
+# Код застосунку та тести — Коля
+# TODO(GC-05): замінити @kolya-login на справжній логін Колі й розкоментувати
+# /src/              @kolya-login
+# /tests/            @kolya-login
